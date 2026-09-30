@@ -81,6 +81,7 @@ async function getPosts() {
 }
 
 function initMap() {
+  if (!window.L) return;
   map = L.map("map", { zoomControl: true, scrollWheelZoom: false }).setView([35.75, 127.8], 5);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',

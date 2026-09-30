@@ -33,6 +33,27 @@
         <button type="submit">Enter journal <span aria-hidden="true">↗</span></button>
         <p id="login-error" class="form-message" role="alert" aria-live="polite"></p>
       </form>
+      <script>
+        (() => {
+          const form = document.querySelector("#login-form");
+          const gate = document.querySelector("#login-gate");
+          const shell = document.querySelector("#app-shell");
+          const error = document.querySelector("#login-error");
+          const remember = document.querySelector("#remember-me");
+          const openJournal = () => { gate.hidden = true; shell.hidden = false; document.body.classList.add("is-authenticated"); };
+          if (sessionStorage.getItem("lysee-authenticated") === "true" || localStorage.getItem("lysee-remembered") === "true") openJournal();
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            const email = document.querySelector("#email").value.trim().toLowerCase();
+            const password = document.querySelector("#password").value;
+            if (email === "lyseetse@msn.com" && password === "anson4486014") {
+              sessionStorage.setItem("lysee-authenticated", "true");
+              if (remember.checked) localStorage.setItem("lysee-remembered", "true");
+              openJournal();
+            } else error.textContent = "登入資料不正確，請再試一次。";
+          });
+        })();
+      </script>
       <p class="login-note">Private front-end journal · no account creation</p>
     </div>
   </main>
