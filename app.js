@@ -5,6 +5,7 @@ const loginGate = document.querySelector("#login-gate");
 const appShell = document.querySelector("#app-shell");
 const loginForm = document.querySelector("#login-form");
 const loginError = document.querySelector("#login-error");
+const rememberMe = document.querySelector("#remember-me");
 const logoutButton = document.querySelector("#logout-button");
 const postsGrid = document.querySelector("#posts-grid");
 const loadError = document.querySelector("#load-error");
@@ -34,6 +35,8 @@ loginForm.addEventListener("submit", (event) => {
   const password = new FormData(loginForm).get("password");
   if (email === DEMO_ACCOUNT.email && password === DEMO_ACCOUNT.password) {
     sessionStorage.setItem("lysee-authenticated", "true");
+    if (rememberMe.checked) localStorage.setItem("lysee-remembered", "true");
+    else localStorage.removeItem("lysee-remembered");
     loginError.textContent = "";
     showApp();
   } else {
@@ -43,6 +46,7 @@ loginForm.addEventListener("submit", (event) => {
 
 logoutButton.addEventListener("click", () => {
   sessionStorage.removeItem("lysee-authenticated");
+  localStorage.removeItem("lysee-remembered");
   showLogin();
 });
 
@@ -98,4 +102,6 @@ async function loadJournal() {
 
 document.querySelector("#year").textContent = new Date().getFullYear();
 loadJournal();
-if (sessionStorage.getItem("lysee-authenticated") === "true") showApp();
+if (sessionStorage.getItem("lysee-authenticated") === "true" || localStorage.getItem("lysee-remembered") === "true") {
+  showApp();
+}
