@@ -85,23 +85,46 @@ async function getPosts() {
 }
 
 function initMap() {
-  if (!window.L) return;
-  map = L.map("map", { zoomControl: true, scrollWheelZoom: false }).setView([35.75, 127.8], 5);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-    maxZoom: 19
-  }).addTo(map);
   getPosts().then((posts) => {
-    posts.forEach((post) => addMarker(post));
-    if (posts.length) map.fitBounds(posts.map((post) => [post.coordinates.lat, post.coordinates.lng]), { padding: [32, 32] });
+    renderSlideshow(posts);
+    map = { invalidateSize() {} };
   }).catch((error) => console.warn(error));
 }
 
-function addMarker(post) {
-  const icon = L.divIcon({ className: "", html: '<span class="lysee-marker"></span>', iconSize: [12, 12], iconAnchor: [6, 6] });
-  const marker = L.marker([post.coordinates.lat, post.coordinates.lng], { icon }).addTo(map);
-  marker.bindPopup(`<div class="popup-location">${escapeHtml(post.date)}</div><strong>${escapeHtml(post.location)}</strong>`);
-  marker.on("click", () => document.querySelector(`#post-${post.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" }));
+function renderSlideshow(posts) {
+  const box = document.querySelector("#map");
+  if (!box || !posts.length) return;
+  let active = 0;
+  let timer;
+  box.innerHTML = `
+    <div class="slides-track"></div>
+    <button class="slide-arrow slide-prev" type="button" aria-label="上一張相片">←</button>
+    <button class="slide-arrow slide-next" type="button" aria-label="下一張相片">→</button>
+    <div class="slide-caption"></div>
+    <div class="slide-dots" role="tablist" aria-label="相片選擇"></div>`;
+  const track = box.querySelector(".slides-track");
+  const caption = box.querySelector(".slide-caption");
+  const dots = box.querySelector(".slide-dots");
+  track.innerHTML = posts.map((post) => `<img class="slide-image" src="${escapeAttribute(post.image)}" alt="${escapeAttribute(post.imageAlt || post.title)}" loading="lazy" />`).join("");
+  dots.innerHTML = posts.map((post, index) => `<button class="slide-dot" type="button" role="tab" aria-label="第 ${index + 1} 張：${escapeAttribute(post.title)}"></button>`).join("");
+  const images = [...track.querySelectorAll(".slide-image")];
+  const dotButtons = [...dots.querySelectorAll(".slide-dot")];
+  const show = (index) => {
+    active = (index + posts.length) % posts.length;
+    images.forEach((image, i) => image.classList.toggle("is-active", i === active));
+    dotButtons.forEach((dot, i) => { dot.classList.toggle("is-active", i === active); dot.setAttribute("aria-selected", String(i === active)); });
+    const post = posts[active];
+    caption.innerHTML = `<span>${escapeHtml(post.date)} · ${escapeHtml(post.location)}</span><strong>${escapeHtml(post.title)}</strong>`;
+  };
+  const restart = () => { window.clearInterval(timer); timer = window.setInterval(() => show(active + 1), 5000); };
+  box.querySelector(".slide-prev").addEventListener("click", () => { show(active - 1); restart(); });
+  box.querySelector(".slide-next").addEventListener("click", () => { show(active + 1); restart(); });
+  dotButtons.forEach((dot, index) => dot.addEventListener("click", () => { show(index); restart(); }));
+  box.addEventListener("mouseenter", () => window.clearInterval(timer));
+  box.addEventListener("mouseleave", restart);
+  box.addEventListener("click", (event) => { if (!event.target.closest("button")) document.querySelector(`#post-${posts[active].id}`)?.scrollIntoView({ behavior: "smooth", block: "center" }); });
+  show(0);
+  restart();
 }
 
 function renderPosts(posts) {
