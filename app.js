@@ -7,6 +7,8 @@ const loginForm = document.querySelector("#login-form");
 const loginError = document.querySelector("#login-error");
 const rememberMe = document.querySelector("#remember-me");
 const loginButton = loginForm.querySelector("button[type='submit']");
+const passwordInput = document.querySelector("#password");
+const passwordToggle = document.querySelector("#password-toggle");
 const logoutButton = document.querySelector("#logout-button");
 const postsGrid = document.querySelector("#posts-grid");
 const loadError = document.querySelector("#load-error");
@@ -47,6 +49,13 @@ function handleLogin(event) {
 
 loginForm.addEventListener("submit", handleLogin);
 loginButton.addEventListener("click", handleLogin);
+passwordToggle.addEventListener("click", () => {
+  const isVisible = passwordInput.type === "text";
+  passwordInput.type = isVisible ? "password" : "text";
+  passwordToggle.textContent = isVisible ? "眼仔" : "隱藏";
+  passwordToggle.setAttribute("aria-label", isVisible ? "顯示密碼" : "隱藏密碼");
+  passwordToggle.setAttribute("aria-pressed", String(!isVisible));
+});
 
 logoutButton.addEventListener("click", () => {
   sessionStorage.removeItem("lysee-authenticated");
