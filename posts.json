@@ -64,5 +64,49 @@
     "imageAlt": "Snowy winter landscape under a pale sky",
     "content": "Outside was silver and quiet. Inside, we made tea, watched the snow gather, and agreed that winter has its own kind of light.",
     "tags": ["winter", "iceland", "stayinside"]
+  },
+  {
+    "id": "seoul-purple-night",
+    "date": "2026-09-24",
+    "location": "Seoul, KR",
+    "coordinates": { "lat": 37.5512, "lng": 126.9882 },
+    "title": "Purple lights after the last train",
+    "image": "https://images.unsplash.com/photo-1538485399081-7c897d4b3f0b?auto=format&fit=crop&w=1200&q=85&sat=-10",
+    "imageAlt": "Seoul street lights glowing after dusk",
+    "content": "We missed the turn on purpose and found a tiny late-night café washed in violet light. JisooA chose the corner seat, I chose the cake, and neither of us wanted to be the first to leave.",
+    "tags": ["seoul", "purplehour", "nightwalk"]
+  },
+  {
+    "id": "busan-seafood-free",
+    "date": "2026-07-02",
+    "location": "Busan, KR",
+    "coordinates": { "lat": 35.1796, "lng": 129.0756 },
+    "title": "Sea air and a table for two",
+    "image": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Coastal city view with blue sea",
+    "content": "We walked the waterfront until the wind made our hair impossible. Dinner was spicy chicken, hot rice and a shared promise to come back when the sky turns colder.",
+    "tags": ["busan", "seaside", "dinnerdate"]
+  },
+  {
+    "id": "nami-winter-orange",
+    "date": "2026-01-12",
+    "location": "Namyangju, KR",
+    "coordinates": { "lat": 37.6360, "lng": 127.2165 },
+    "title": "Winter, wrapped in orange",
+    "image": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Quiet winter trees and pale snow",
+    "content": "A cold afternoon became our favourite kind of day: warm blankets at the guesthouse, peeled tangerines on the table, and snow gathering quietly beyond the window.",
+    "tags": ["winter", "korea", "slowday"]
+  },
+  {
+    "id": "tokyo-game-arcade",
+    "date": "2025-12-06",
+    "location": "Tokyo, JP",
+    "coordinates": { "lat": 35.6762, "lng": 139.6503 },
+    "title": "One more round",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Colorful evening city lights",
+    "content": "JisooA said she would only play one round. Forty minutes and one very serious rematch later, she finally admitted that winning was more important than sightseeing.",
+    "tags": ["tokyo", "games", "citylights"]
   }
 ]
