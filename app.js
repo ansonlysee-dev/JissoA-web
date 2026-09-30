@@ -17,7 +17,9 @@ let map;
 
 function showApp() {
   loginGate.hidden = true;
+  loginGate.style.display = "none";
   appShell.hidden = false;
+  appShell.style.display = "block";
   document.body.classList.add("is-authenticated");
   window.setTimeout(() => {
     if (!map) initMap();
@@ -27,7 +29,9 @@ function showApp() {
 
 function showLogin() {
   loginGate.hidden = false;
+  loginGate.style.display = "grid";
   appShell.hidden = true;
+  appShell.style.display = "none";
   document.body.classList.remove("is-authenticated");
   loginForm.reset();
 }
