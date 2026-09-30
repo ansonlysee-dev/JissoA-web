@@ -1,0 +1,68 @@
+[
+  {
+    "id": "seoul-blue-hour",
+    "date": "2026-09-21",
+    "location": "Seoul, KR",
+    "coordinates": { "lat": 37.5665, "lng": 126.9780 },
+    "title": "Blue hour, slow steps",
+    "image": "https://images.unsplash.com/photo-1538485399081-7c897d4b3f0b?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Seoul city street at blue hour",
+    "content": "We let the evening decide the route. A quiet side street, a warm cup between our hands, and the city turning lavender one window at a time.",
+    "tags": ["seoul", "bluehour", "citywalk"]
+  },
+  {
+    "id": "jeju-wind",
+    "date": "2026-08-14",
+    "location": "Jeju, KR",
+    "coordinates": { "lat": 33.4996, "lng": 126.5312 },
+    "title": "The island keeps its own weather",
+    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Coastal landscape with ocean and cliffs",
+    "content": "Wind through the grass, salt on the sleeves, and nowhere to be before sunset. Jeju made even our silence feel like a plan.",
+    "tags": ["jeju", "coast", "slowtravel"]
+  },
+  {
+    "id": "kyoto-paper",
+    "date": "2026-05-03",
+    "location": "Kyoto, JP",
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "title": "Paper, shadow, green",
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Traditional Kyoto temple surrounded by greenery",
+    "content": "We followed the sound of gravel underfoot and found a garden that seemed to have been waiting for us. Every corner held a softer version of the day.",
+    "tags": ["kyoto", "gardens", "quietplaces"]
+  },
+  {
+    "id": "taipei-rain",
+    "date": "2026-03-18",
+    "location": "Taipei, TW",
+    "coordinates": { "lat": 25.0330, "lng": 121.5654 },
+    "title": "A little rain is still a view",
+    "image": "https://images.unsplash.com/photo-1470004914212-05527e49370b?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Rainy city scene with a leafy view",
+    "content": "The best plans were the ones made under an awning: noodles, a shared umbrella, and a list of places we could return to later.",
+    "tags": ["taipei", "rainydays", "foodtrip"]
+  },
+  {
+    "id": "lisbon-light",
+    "date": "2025-11-08",
+    "location": "Lisbon, PT",
+    "coordinates": { "lat": 38.7223, "lng": -9.1393 },
+    "title": "The city in soft yellow",
+    "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Warm Lisbon street with colorful buildings",
+    "content": "Lisbon taught us to look up: tiled walls, laundry in the sun, and the last light resting on every old balcony.",
+    "tags": ["lisbon", "architecture", "sunlight"]
+  },
+  {
+    "id": "reykjavik-winter",
+    "date": "2025-01-17",
+    "location": "Reykjavík, IS",
+    "coordinates": { "lat": 64.1466, "lng": -21.9426 },
+    "title": "Warm rooms, white horizons",
+    "image": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Snowy winter landscape under a pale sky",
+    "content": "Outside was silver and quiet. Inside, we made tea, watched the snow gather, and agreed that winter has its own kind of light.",
+    "tags": ["winter", "iceland", "stayinside"]
+  }
+]
