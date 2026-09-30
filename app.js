@@ -49,13 +49,22 @@ function handleLogin(event) {
 
 loginForm.addEventListener("submit", handleLogin);
 loginButton.addEventListener("click", handleLogin);
-passwordToggle.addEventListener("click", () => {
-  const isVisible = passwordInput.type === "text";
-  passwordInput.type = isVisible ? "password" : "text";
-  passwordToggle.textContent = isVisible ? "眼仔" : "隱藏";
-  passwordToggle.setAttribute("aria-label", isVisible ? "顯示密碼" : "隱藏密碼");
-  passwordToggle.setAttribute("aria-pressed", String(!isVisible));
-});
+function revealPassword() {
+  passwordInput.type = "text";
+  passwordToggle.setAttribute("aria-label", "移開眼睛圖示隱藏密碼");
+  passwordToggle.setAttribute("aria-pressed", "true");
+}
+
+function concealPassword() {
+  passwordInput.type = "password";
+  passwordToggle.setAttribute("aria-label", "移到眼睛圖示上顯示密碼");
+  passwordToggle.setAttribute("aria-pressed", "false");
+}
+
+passwordToggle.addEventListener("mouseenter", revealPassword);
+passwordToggle.addEventListener("mouseleave", concealPassword);
+passwordToggle.addEventListener("focus", revealPassword);
+passwordToggle.addEventListener("blur", concealPassword);
 
 logoutButton.addEventListener("click", () => {
   sessionStorage.removeItem("lysee-authenticated");

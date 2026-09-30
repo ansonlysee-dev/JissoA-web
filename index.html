@@ -25,7 +25,9 @@
         <label for="password">Password</label>
         <div class="password-field">
           <input id="password" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required />
-          <button id="password-toggle" class="password-toggle" type="button" aria-label="顯示密碼" aria-pressed="false">眼仔</button>
+          <button id="password-toggle" class="password-toggle" type="button" aria-label="移到眼睛圖示上顯示密碼" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.2 12s3.5-5.2 9.8-5.2S21.8 12 21.8 12 18.3 17.2 12 17.2 2.2 12 2.2 12Z"/><circle cx="12" cy="12" r="2.6"/></svg>
+          </button>
         </div>
         <label class="remember-me" for="remember-me"><input id="remember-me" name="remember-me" type="checkbox" /> <span>記住我，下次自動登入</span></label>
         <button type="submit">Enter journal <span aria-hidden="true">↗</span></button>
