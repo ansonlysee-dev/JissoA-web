@@ -6,6 +6,7 @@ const appShell = document.querySelector("#app-shell");
 const loginForm = document.querySelector("#login-form");
 const loginError = document.querySelector("#login-error");
 const rememberMe = document.querySelector("#remember-me");
+const loginButton = loginForm.querySelector("button[type='submit']");
 const logoutButton = document.querySelector("#logout-button");
 const postsGrid = document.querySelector("#posts-grid");
 const loadError = document.querySelector("#load-error");
@@ -29,10 +30,10 @@ function showLogin() {
   loginForm.reset();
 }
 
-loginForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const email = new FormData(loginForm).get("email").trim().toLowerCase();
-  const password = new FormData(loginForm).get("password");
+function handleLogin(event) {
+  event?.preventDefault();
+  const email = document.querySelector("#email").value.trim().toLowerCase();
+  const password = document.querySelector("#password").value;
   if (email === DEMO_ACCOUNT.email && password === DEMO_ACCOUNT.password) {
     sessionStorage.setItem("lysee-authenticated", "true");
     if (rememberMe.checked) localStorage.setItem("lysee-remembered", "true");
@@ -42,7 +43,10 @@ loginForm.addEventListener("submit", (event) => {
   } else {
     loginError.textContent = "登入資料不正確，請再試一次。";
   }
-});
+}
+
+loginForm.addEventListener("submit", handleLogin);
+loginButton.addEventListener("click", handleLogin);
 
 logoutButton.addEventListener("click", () => {
   sessionStorage.removeItem("lysee-authenticated");
