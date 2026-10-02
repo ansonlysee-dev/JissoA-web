@@ -1,5 +1,221 @@
 [
   {
+    "id": "jissoa-aircrew-01",
+    "date": "2026-10-02",
+    "location": "Hong Kong International Airport",
+    "coordinates": {
+      "lat": 22.308,
+      "lng": 113.918
+    },
+    "title": "A how-are-you from the terminal",
+    "image": "assets/photos/instant_how_are_you_hongkong_aircrew_20261002_1118.png",
+    "imageAlt": "A how-are-you from the terminal — JissoA travel blog photo",
+    "content": "今日喺香港機場準備返工，陽光由玻璃幕牆入場，紅白航空風格制服令成個早上都醒晒。",
+    "tags": [
+      "hongkong",
+      "airportdiary",
+      "howareyou"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-02",
+    "date": "2026-10-02",
+    "location": "Hong Kong",
+    "coordinates": {
+      "lat": 22.319,
+      "lng": 114.169
+    },
+    "title": "The long-leg uniform preview",
+    "image": "assets/photos/aircrew_hongkong_red_white_long_legs_preview_20261002.png",
+    "imageAlt": "The long-leg uniform preview — JissoA travel blog photo",
+    "content": "紅白航空風格嘅制服預覽：俐落短裙、絲襪同自然高挑比例，係一個屬於空港日常嘅新造型。",
+    "tags": [
+      "hongkong",
+      "uniformdiary",
+      "aviationstyle"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-03",
+    "date": "2026-10-01",
+    "location": "Hong Kong International Airport",
+    "coordinates": {
+      "lat": 22.308,
+      "lng": 113.918
+    },
+    "title": "Before the first departure",
+    "image": "assets/photos/aircrew_uniform_01_airport_20261001.png",
+    "imageAlt": "Before the first departure — JissoA travel blog photo",
+    "content": "出發前嘅機場光線好乾淨，制服、行李箱同一段未開始嘅旅程，剛剛好。",
+    "tags": [
+      "hongkong",
+      "airport",
+      "travelwork"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-04",
+    "date": "2026-10-01",
+    "location": "Aircraft Cabin",
+    "coordinates": {
+      "lat": 1.35,
+      "lng": 103.99
+    },
+    "title": "Cabin light",
+    "image": "assets/photos/aircrew_uniform_02_cabin_20261001.png",
+    "imageAlt": "Cabin light — JissoA travel blog photo",
+    "content": "機艙入面嘅光線同機場唔同，安靜、集中，係工作模式正式開啟嘅一刻。",
+    "tags": [
+      "cabin",
+      "aircrew",
+      "workdiary"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-05",
+    "date": "2026-10-01",
+    "location": "Seoul",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Briefing in Seoul",
+    "image": "assets/photos/aircrew_uniform_03_seoul_briefing_20261001.png",
+    "imageAlt": "Briefing in Seoul — JissoA travel blog photo",
+    "content": "抵達首爾後嘅 briefing 時間，短裙制服保持專業線條，窗外就係下一段城市故事。",
+    "tags": [
+      "seoul",
+      "briefing",
+      "citywork"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-06",
+    "date": "2026-10-01",
+    "location": "Tokyo",
+    "coordinates": {
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "title": "City arrival",
+    "image": "assets/photos/aircrew_uniform_04_city_arrival_20261001.png",
+    "imageAlt": "City arrival — JissoA travel blog photo",
+    "content": "落機後嘅城市抵達照。由機場行入陌生街區，旅遊網紅模式就自然接手。",
+    "tags": [
+      "tokyo",
+      "arrival",
+      "cityframes"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-07",
+    "date": "2026-10-01",
+    "location": "Airport Lounge",
+    "coordinates": {
+      "lat": 22.308,
+      "lng": 113.918
+    },
+    "title": "A quiet lounge pause",
+    "image": "assets/photos/aircrew_uniform_05_lounge_20261001.png",
+    "imageAlt": "A quiet lounge pause — JissoA travel blog photo",
+    "content": "喺 lounge 偷到一個安靜嘅空檔，整理一下絲巾，再望一眼下一班航班嘅時間。",
+    "tags": [
+      "airport",
+      "loungestyle",
+      "slowtravel"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-08",
+    "date": "2026-10-01",
+    "location": "Briefing Room",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Work mode, softly lit",
+    "image": "assets/photos/aircrew_uniform_06_briefing_room_20261001.png",
+    "imageAlt": "Work mode, softly lit — JissoA travel blog photo",
+    "content": "工作室內嘅柔和光線，令制服嘅紅色變得更沉穩。專業同時，都可以保留少少個人風格。",
+    "tags": [
+      "workroom",
+      "uniform",
+      "editorial"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-09",
+    "date": "2026-10-01",
+    "location": "Tokyo",
+    "coordinates": {
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "title": "Tokyo arrival notes",
+    "image": "assets/photos/aircrew_uniform_07_tokyo_arrival_20261001.png",
+    "imageAlt": "Tokyo arrival notes — JissoA travel blog photo",
+    "content": "東京抵達後嘅第一個片段：城市節奏好快，但影相嗰一秒可以慢落嚟。",
+    "tags": [
+      "tokyo",
+      "arrivaldiary",
+      "travelcreator"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-10",
+    "date": "2026-10-01",
+    "location": "Tokyo",
+    "coordinates": {
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "title": "Check-in, then explore",
+    "image": "assets/photos/aircrew_uniform_08_hotel_checkin_20261001.png",
+    "imageAlt": "Check-in, then explore — JissoA travel blog photo",
+    "content": "酒店 check-in 完先再諗今晚去邊。制服仍然係今日最清楚嘅工作記號。",
+    "tags": [
+      "tokyo",
+      "hotelstop",
+      "citynotes"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-11",
+    "date": "2026-10-01",
+    "location": "Tokyo",
+    "coordinates": {
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "title": "Coffee between flights",
+    "image": "assets/photos/aircrew_uniform_09_city_cafe_20261001.png",
+    "imageAlt": "Coffee between flights — JissoA travel blog photo",
+    "content": "兩段工作之間嘅咖啡時間，搵到一間街角小店，就足夠令旅程有一個柔軟嘅停頓。",
+    "tags": [
+      "tokyo",
+      "cafestop",
+      "betweenflights"
+    ]
+  },
+  {
+    "id": "jissoa-aircrew-12",
+    "date": "2026-10-01",
+    "location": "Hong Kong",
+    "coordinates": {
+      "lat": 22.319,
+      "lng": 114.169
+    },
+    "title": "Night departure",
+    "image": "assets/photos/aircrew_uniform_10_night_departure_20261001.png",
+    "imageAlt": "Night departure — JissoA travel blog photo",
+    "content": "夜航出發前，機場燈光由白轉暖。今日嘅工作收尾，亦係下一個城市嘅開場。",
+    "tags": [
+      "hongkong",
+      "nightflight",
+      "worktravel"
+    ]
+  },
+  {
     "id": "jissoa-seoul-01",
     "date": "2026-09-30",
     "location": "Gangnam, Seoul",
