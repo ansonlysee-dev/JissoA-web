@@ -1,5 +1,65 @@
 [
   {
+    "id": "jissoa-seoul-ice-rink-front-20261004",
+    "date": "2026-10-04",
+    "location": "Seoul Ice Rink, Seoul",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "White on Ice — Front Angle",
+    "image": "assets/photos/jissoa_seoul_ice_rink_white_outfit_front_20261004.png",
+    "imageAlt": "JissoA in a white skating outfit at a Seoul ice rink, front three-quarter angle",
+    "content": "今日換上白色溜冰造型，喺首爾冰場邊先影一張正面打卡。白色百褶短裙同冰面反光幾乎融埋一齊，畫面好乾淨。",
+    "tags": [
+      "seoul",
+      "icerink",
+      "skating",
+      "whiteoutfit",
+      "travelcreator"
+    ]
+  },
+  {
+    "id": "jissoa-seoul-ice-rink-side-20261004",
+    "date": "2026-10-04",
+    "location": "Seoul Ice Rink, Seoul",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "A Small Glide in Seoul",
+    "image": "assets/photos/jissoa_seoul_ice_rink_white_outfit_side_20261004.png",
+    "imageAlt": "JissoA gliding at a Seoul ice rink in a white skating outfit, side angle",
+    "content": "側面滑行嘅一刻，風由耳邊掠過，成個場館嘅聲音突然變得好遠。呢套白色造型比想像中更適合冰場。",
+    "tags": [
+      "seoul",
+      "icerink",
+      "glide",
+      "skatingdiary",
+      "citymoments"
+    ]
+  },
+  {
+    "id": "jissoa-seoul-ice-rink-backlook-20261004",
+    "date": "2026-10-04",
+    "location": "Seoul Ice Rink, Seoul",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Looking Back Across the Ice",
+    "image": "assets/photos/jissoa_seoul_ice_rink_white_outfit_backlook_20261004.png",
+    "imageAlt": "JissoA looking back on the ice at a Seoul rink in a white skating outfit",
+    "content": "最後留低一張回望冰場嘅相。由背影轉身嗰一下，反而最似旅行途中偶然被記錄低嘅片段。",
+    "tags": [
+      "seoul",
+      "icerink",
+      "backlook",
+      "wintermood",
+      "travelblog"
+    ]
+  },
+  {
     "id": "jissoa-aircrew-01",
     "date": "2026-10-02",
     "location": "Hong Kong International Airport",
