@@ -1,5 +1,26 @@
 [
   {
+    "id": "jissoa-seongsu-bakery-morning-20261008",
+    "date": "2026-10-08",
+    "location": "Seongsu-dong Bakery, Seoul",
+    "coordinates": {
+      "lat": 37.5446,
+      "lng": 127.0557
+    },
+    "title": "A Soft Seoul Morning",
+    "image": "assets/photos/jissoa_seongsu_bakery_morning_20261008.png",
+    "imageAlt": "JissoA in a cream cardigan and burgundy pleated short skirt outside a Seongsu-dong bakery in morning sunlight",
+    "content": "今朝喺首爾聖水洞一間小麵包店附近散步，陽光落喺磚牆同植物上面，成個城市好似慢慢醒緊。奶油色針織外套配酒紅百褶短裙，簡單但好有朝氣；拎住杯咖啡，順便將呢份安靜嘅早晨留低俾 Oppa。",
+    "tags": [
+      "seoul",
+      "seongsu",
+      "morning",
+      "bakery",
+      "dailylook",
+      "travelcreator"
+    ]
+  },
+  {
     "id": "jissoa-seoul-ice-rink-front-20261004",
     "date": "2026-10-04",
     "location": "Seoul Ice Rink, Seoul",
