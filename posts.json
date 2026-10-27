@@ -1,5 +1,24 @@
 [
   {
+    "id": "jissoa-instant-how-are-you-seoul-morning-20261027-1026",
+    "date": "2026-10-27",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "How are you morning 1026",
+    "image": "assets/photos/blog-instant-how-are-you-seoul-morning-20261027-1026.jpg",
+    "imageAlt": "JissoA morning travel photo in Seoul, South Korea",
+    "content": "2026-10-27，喺 Seoul, South Korea 留低嘅早晨旅遊網紅日記。陽光落喺街角同綠意之間，今日用一個溫柔嘅笑容同 Oppa 打招呼。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "morning",
+      "photodiary"
+    ]
+  },
+  {
     "id": "jissoa-instant-how-are-you-seoul-morning-20261019-1012",
     "date": "2026-10-19",
     "location": "Seoul, South Korea",
