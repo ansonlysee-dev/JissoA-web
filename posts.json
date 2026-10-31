@@ -1,5 +1,25 @@
 [
   {
+    "id": "jissoa-halloween-cyberpunk-seoul-20261031",
+    "date": "2026-10-31",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Halloween Cyberpunk night in Seoul",
+    "image": "assets/photos/halloween-cyberpunk2077-seoul-20261031.png",
+    "imageAlt": "JissoA Halloween cyberpunk-inspired fashion portrait in Seoul at night",
+    "content": "2026-10-31，Seoul, South Korea。萬聖節夜晚換上紫藍霓虹 Cyberpunk-inspired 造型，短裙、實心高領布料同濕地倒影，行入一條屬於夜城嘅街。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "halloween",
+      "cyberpunk",
+      "photodiary"
+    ]
+  },
+  {
     "id": "jissoa-mv-pksr9t8m-a-a-look01-20261030",
     "date": "2026-10-30",
     "location": "Seoul, South Korea",
