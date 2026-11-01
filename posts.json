@@ -1,5 +1,100 @@
 [
   {
+    "id": "jissoa-future-style-pose01-20261101",
+    "date": "2026-11-01",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Future patent pose 01",
+    "image": "assets/photos/future-style-pose01-20261101.png",
+    "imageAlt": "JissoA futuristic patent fashion full-body pose 01 in Seoul",
+    "content": "2026-11-01，Seoul, South Korea。黑色漆皮、白冰藍拼色同粉藍霓虹光影，配合第 01 個全身 editorial 姿勢。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "future-fashion",
+      "photodiary"
+    ]
+  },
+  {
+    "id": "jissoa-future-style-pose02-20261101",
+    "date": "2026-11-01",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Future patent pose 02",
+    "image": "assets/photos/future-style-pose02-20261101.png",
+    "imageAlt": "JissoA futuristic patent fashion full-body pose 02 in Seoul",
+    "content": "2026-11-01，Seoul, South Korea。黑色漆皮、白冰藍拼色同粉藍霓虹光影，配合第 02 個全身 editorial 姿勢。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "future-fashion",
+      "photodiary"
+    ]
+  },
+  {
+    "id": "jissoa-future-style-pose03-20261101",
+    "date": "2026-11-01",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Future patent pose 03",
+    "image": "assets/photos/future-style-pose03-20261101.png",
+    "imageAlt": "JissoA futuristic patent fashion full-body pose 03 in Seoul",
+    "content": "2026-11-01，Seoul, South Korea。黑色漆皮、白冰藍拼色同粉藍霓虹光影，配合第 03 個全身 editorial 姿勢。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "future-fashion",
+      "photodiary"
+    ]
+  },
+  {
+    "id": "jissoa-future-style-pose04-20261101",
+    "date": "2026-11-01",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Future patent pose 04",
+    "image": "assets/photos/future-style-pose04-20261101.png",
+    "imageAlt": "JissoA futuristic patent fashion full-body pose 04 in Seoul",
+    "content": "2026-11-01，Seoul, South Korea。黑色漆皮、白冰藍拼色同粉藍霓虹光影，配合第 04 個全身 editorial 姿勢。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "future-fashion",
+      "photodiary"
+    ]
+  },
+  {
+    "id": "jissoa-future-style-pose05-20261101",
+    "date": "2026-11-01",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Future patent pose 05",
+    "image": "assets/photos/future-style-pose05-20261101.png",
+    "imageAlt": "JissoA futuristic patent fashion full-body pose 05 in Seoul",
+    "content": "2026-11-01，Seoul, South Korea。黑色漆皮、白冰藍拼色同粉藍霓虹光影，配合第 05 個全身 editorial 姿勢。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "future-fashion",
+      "photodiary"
+    ]
+  },
+  {
     "id": "jissoa-halloween-cyberpunk-seoul-20261031",
     "date": "2026-10-31",
     "location": "Seoul, South Korea",
