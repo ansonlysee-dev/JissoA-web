@@ -1,5 +1,24 @@
 [
   {
+    "id": "jissoa-how-are-you-seoul-afternoon-20261103",
+    "date": "2026-11-03",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "How are you — Seoul afternoon 1103",
+    "image": "assets/photos/how-are-you-seoul-afternoon-20261103.png",
+    "imageAlt": "JissoA Seoul afternoon bookstore cafe portrait",
+    "content": "2026-11-03，Seoul, South Korea。下午喺書店咖啡街附近慢慢行，留低一段秋日首爾嘅溫柔光線。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "afternoon",
+      "photodiary"
+    ]
+  },
+  {
     "id": "jissoa-future-style-pose01-20261101",
     "date": "2026-11-01",
     "location": "Seoul, South Korea",
