@@ -1,5 +1,119 @@
 [
   {
+    "id": "jissoa-master-pose-dress-img5858-20261111",
+    "date": "2026-11-11",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Black leather chair editorial — IMG 5858",
+    "image": "assets/photos/master-pose-dress-img5858-20261111.png",
+    "imageAlt": "JissoA in a black leather jacket and tie seated in a chair in Seoul",
+    "content": "2026-11-11，黑色皮褸、藍色恤衫與酒紅領帶，喺攝影棚留低一張帶有冷調氣場嘅坐姿 editorial。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "editorial",
+      "fashion"
+    ]
+  },
+  {
+    "id": "jissoa-how-are-you-seoul-afternoon-20261110",
+    "date": "2026-11-10",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Sculpture garden afternoon",
+    "image": "assets/photos/recent-seoul-afternoon-20261110.png",
+    "imageAlt": "JissoA at a Seoul museum sculpture garden",
+    "content": "2026-11-10，喺首爾博物館雕塑花園慢慢行，秋日下午嘅金色光線落喺大型作品同樹影之間。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "museum",
+      "afternoon"
+    ]
+  },
+  {
+    "id": "jissoa-master-pose-dress-img5819-20261108",
+    "date": "2026-11-08",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Black and pink studio chair study",
+    "image": "assets/photos/master-pose-dress-img5819-20261108.png",
+    "imageAlt": "JissoA seated in a pale-blue shirt and black skirt on a studio chair",
+    "content": "2026-11-08，黑色背景配粉紅地面，將淺藍恤衫、黑色短裙與高跟鞋變成一張安靜嘅棚拍姿勢研究。",
+    "tags": [
+      "jissoa",
+      "studio",
+      "editorial",
+      "pose-study"
+    ]
+  },
+  {
+    "id": "jissoa-seoul-night-closeup-20261106",
+    "date": "2026-11-06",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Seoul night close-up",
+    "image": "assets/photos/recent-seoul-night-closeup-20261106.png",
+    "imageAlt": "JissoA mature fashion close-up with Seoul lights at night",
+    "content": "2026-11-06，首爾夜景霓虹之間，酒紅緞面與黑色外套營造成熟而克制嘅夜間 editorial。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "night",
+      "editorial"
+    ]
+  },
+  {
+    "id": "jissoa-how-are-you-seoul-day-20261106",
+    "date": "2026-11-06",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Ceramic studio morning",
+    "image": "assets/photos/recent-seoul-day-20261106.png",
+    "imageAlt": "JissoA at a Seoul ceramic studio courtyard",
+    "content": "2026-11-06，喺首爾陶藝工作室庭院拎住手作杯，留低一段柔和、安靜嘅白天時光。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "ceramics",
+      "daylight"
+    ]
+  },
+  {
+    "id": "jissoa-how-are-you-seoul-afternoon-20261105",
+    "date": "2026-11-05",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Han River art-book market",
+    "image": "assets/photos/recent-seoul-afternoon-20261105.png",
+    "imageAlt": "JissoA at a Seoul riverside art-book market",
+    "content": "2026-11-05，漢江邊藝術書市嘅秋日下午，邊行邊睇城市攝影書，留低一張成熟文藝風相片。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "book-market",
+      "afternoon"
+    ]
+  },
+  {
     "id": "jissoa-how-are-you-seoul-afternoon-20261103",
     "date": "2026-11-03",
     "location": "Seoul, South Korea",
