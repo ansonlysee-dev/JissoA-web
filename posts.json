@@ -1,5 +1,25 @@
 [
   {
+    "id": "jissoa-how-are-you-seoul-morning-20261118",
+    "date": "2026-11-18",
+    "location": "Seoul, South Korea",
+    "coordinates": {
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "title": "Morning flower-street greeting",
+    "image": "assets/photos/how-are-you-seoul-morning-20261118.png",
+    "imageAlt": "JissoA in a butter-yellow cardigan and coral pleated short skirt on a sunny Seoul flower street",
+    "content": "2026-11-18，首爾花店街頭嘅明亮早晨。黃、天藍同珊瑚紅配色，加上自然裸腿同白色瑪麗珍鞋，留低一張輕鬆嘅晨間旅遊網紅相。",
+    "tags": [
+      "jissoa",
+      "seoul",
+      "morning",
+      "flower-street",
+      "photodiary"
+    ]
+  },
+  {
     "id": "jissoa-master-pose-dress-img5858-20261111",
     "date": "2026-11-11",
     "location": "Seoul, South Korea",
